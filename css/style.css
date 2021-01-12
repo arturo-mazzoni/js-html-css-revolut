@@ -4,16 +4,20 @@
   box-sizing: border-box;
 }
 
-ul li {
+.menu li {
   list-style-type: none;
   line-height: 200px;
   margin: 20px;
 }
 
-ul li img {
+img {
   height: 200px;
 }
 
-ul {
+.container {
+  display: flex;
+}
+
+.menu {
   display: flex;
 }
