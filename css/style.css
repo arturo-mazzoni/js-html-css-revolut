@@ -25,3 +25,11 @@ img {
 .drop_elements {
   line-height: 50px;
 }
+
+.drop {
+  display: none;
+}
+
+.active {
+  display:block;
+}
