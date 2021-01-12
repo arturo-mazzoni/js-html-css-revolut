@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $(".has_dropsheet").click(function(){
-    $(".drop").addClass("active");
+    $(this).children(".drop").toggleClass("active");
   });
 
 });
