@@ -6,12 +6,12 @@
 
 .menu li {
   list-style-type: none;
-  line-height: 200px;
+  line-height: 100px;
   margin: 20px;
 }
 
 img {
-  height: 200px;
+  height: 100px;
 }
 
 .container {
@@ -20,4 +20,8 @@ img {
 
 .menu {
   display: flex;
+}
+
+.drop_elements {
+  line-height: 50px;
 }
