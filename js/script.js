@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-  $("span").click(function(){
-    $(this).toggleClass("active");
+  $(".has_dropsheet").click(function(){
+    $(".drop").addClass("active");
   });
+
 });
