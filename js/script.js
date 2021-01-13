@@ -4,13 +4,12 @@ $(document).ready(function(){
     $(this).children(".drop").toggleClass("active");
   });
 
-  $(".has_dropsheet").hover(function(){
+  $(".has_dropsheet.chev").hover(function(){
     $(".fas.fa-chevron-down").toggleClass("rotate");
   });
 
   $(".drop_elements").hover(function(){
     $(this).toggleClass("select");
   });
-
 
 });
