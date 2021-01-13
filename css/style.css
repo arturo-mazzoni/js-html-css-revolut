@@ -31,6 +31,7 @@ img {
   display: none;
   position: absolute;
   box-shadow: 0 5px 5px 2px rgb(80, 80, 80);
+  border-radius: 5px;
 }
 
 .drop_elements {
@@ -49,5 +50,4 @@ img {
   background-color: rgb(217, 37, 123);
   padding: 10px 20px;
   border-radius: 20px;
-
 }
