@@ -8,5 +8,9 @@ $(document).ready(function(){
     $(".fas.fa-chevron-down").toggleClass("rotate");
   });
 
+  $(".drop_elements").hover(function(){
+    $(this).toggleClass("select");
+  });
+
 
 });

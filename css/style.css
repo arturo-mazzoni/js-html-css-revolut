@@ -55,3 +55,8 @@ img {
 .rotate {
   transform: rotateX(180deg);
 }
+
+.select {
+  background-color: rgb(109, 192, 252);
+  border-radius: 5px;
+}
